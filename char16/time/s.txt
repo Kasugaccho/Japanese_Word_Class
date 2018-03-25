@@ -1,0 +1,40 @@
+
+/*
+//データ保存先
+FILE  *fp;
+errno_t error;
+
+error = fopen_s(&fp, "aa5.txt", "w+");
+if (!error) {
+
+//平均値
+int ave = 0;
+
+//計測時間(ミリ秒)
+int timeMS;
+
+std::chrono::system_clock::time_point  start, end;
+
+//for (int j = 0; j < 10; j++) {
+
+//計測開始時間
+start = std::chrono::system_clock::now();
+
+for (int i = 0; i < 1000; i++) {
+for (Verb i : verb) printf("%s\n", utf32ToShiftjis2(i.allModeStr()).c_str());
+//処理を書く
+
+}
+
+//計測終了時間
+end = std::chrono::system_clock::now();
+timeMS = (int)std::chrono::duration_cast<std::chrono::milliseconds>(end - start).count();
+ave += timeMS;
+fprintf(fp, "%d\n", timeMS);
+//printf("%d:%d\n", j + 1, timeMS);
+//}
+fclose(fp);
+printf("平均:%d\n", ave / 10);
+
+}
+*/

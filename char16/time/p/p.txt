@@ -1,0 +1,25 @@
+	//void printStr(const c32 src)
+	//{
+	//	printf("case 0x%x", int(src));
+
+	//	string u8str("aaaaa");
+
+	//	//for (size_t i = 0; i < 4; i++) u8str[i] = 0;
+
+	//	//u8str = c32ToUtf8(src);
+	//	//printf("%x,", unsigned char(u8str[2]));
+	//	//printf("%x", unsigned char(u8str[1]));
+	//	//printf("%x", unsigned char(u8str[0]));
+
+
+
+	//	for (size_t i = 0; i < 4; i++) u8str[i] = 0;
+
+	//	u8str = c32ToShiftjis(src);
+	//	if(u8str[0]!=0) printf(": u8str += (c8)0x%x", unsigned char(u8str[0]));
+	//	printf("; u8str += (c8)0x%x; break;\n", unsigned char(u8str[1]));
+
+
+	//	//printf("%u,%s,%s\n", src, .c_str(), c32ToShiftjis(src).c_str());
+	//	return;
+	//}
