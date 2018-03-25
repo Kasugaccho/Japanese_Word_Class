@@ -132,17 +132,19 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="adjective.hpp" />
-    <ClInclude Include="adjective_verb.hpp" />
-    <ClInclude Include="default.hpp" />
-    <ClInclude Include="noun.hpp" />
-    <ClInclude Include="particle.hpp" />
-    <ClInclude Include="particle_verb.hpp" />
-    <ClInclude Include="person.hpp" />
+    <ClInclude Include="jp_word\adjective.hpp" />
+    <ClInclude Include="jp_word\adjective_verb.hpp" />
+    <ClInclude Include="jp_word\noun.hpp" />
+    <ClInclude Include="jp_word\particle.hpp" />
+    <ClInclude Include="jp_word\particle_verb.hpp" />
+    <ClInclude Include="jp_word\person.hpp" />
+    <ClInclude Include="jp_word\verb.hpp" />
+    <ClInclude Include="jp_word\word_class_class.hpp" />
     <ClInclude Include="utf8.hpp" />
-    <ClInclude Include="verb.hpp" />
     <ClInclude Include="word_class.hpp" />
-    <ClInclude Include="word_class_class.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="char16.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

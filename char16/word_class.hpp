@@ -4,22 +4,22 @@
 #include "default.hpp"
 
 //動詞
-#include "verb.hpp"
+#include "jp_word/verb.hpp"
 
 //形容詞
-#include "adjective.hpp"
+#include "jp_word/adjective.hpp"
 
 //形容動詞
-#include "adjective_verb.hpp"
+#include "jp_word/adjective_verb.hpp"
 
 //助動詞
-#include "particle_verb.hpp"
+#include "jp_word/particle_verb.hpp"
 
 //助詞
-#include "particle.hpp"
+#include "jp_word/particle.hpp"
 
 //文字変換
 #include "utf8.hpp"
 
 //文字変換
-#include "word_class_class.hpp"
+#include "jp_word/word_class_class.hpp"

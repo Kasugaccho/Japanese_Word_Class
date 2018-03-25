@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ヘッダー ファイル\jp_word">
+      <UniqueIdentifier>{6166eb4f-60b5-4662-a40a-487ce42788f2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp">
@@ -20,38 +23,40 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="verb.hpp">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="default.hpp">
+    <ClInclude Include="utf8.hpp">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="word_class.hpp">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="utf8.hpp">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="jp_word\adjective.hpp">
+      <Filter>ヘッダー ファイル\jp_word</Filter>
     </ClInclude>
-    <ClInclude Include="adjective.hpp">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="jp_word\adjective_verb.hpp">
+      <Filter>ヘッダー ファイル\jp_word</Filter>
     </ClInclude>
-    <ClInclude Include="adjective_verb.hpp">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="jp_word\noun.hpp">
+      <Filter>ヘッダー ファイル\jp_word</Filter>
     </ClInclude>
-    <ClInclude Include="particle_verb.hpp">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="jp_word\particle.hpp">
+      <Filter>ヘッダー ファイル\jp_word</Filter>
     </ClInclude>
-    <ClInclude Include="noun.hpp">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="jp_word\particle_verb.hpp">
+      <Filter>ヘッダー ファイル\jp_word</Filter>
     </ClInclude>
-    <ClInclude Include="person.hpp">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="jp_word\person.hpp">
+      <Filter>ヘッダー ファイル\jp_word</Filter>
     </ClInclude>
-    <ClInclude Include="particle.hpp">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="jp_word\verb.hpp">
+      <Filter>ヘッダー ファイル\jp_word</Filter>
     </ClInclude>
-    <ClInclude Include="word_class_class.hpp">
-      <Filter>ヘッダー ファイル</Filter>
+    <ClInclude Include="jp_word\word_class_class.hpp">
+      <Filter>ヘッダー ファイル\jp_word</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="char16.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
